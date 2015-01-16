@@ -1,0 +1,13 @@
+CDI Workshop - Exercise 2
+
+1. Qualifier Greeting
+1.1 Create qualifier Greeting wirt Parameter GreetingType
+
+2.  Class DefaultGreetingService
+2.1 Annotate service with qualifier as default service.
+
+3.  Class FormalGreetingService
+3.1 Annotate service with qualifier as formal service.
+
+4.  Class InjectWithQualifier
+4.1 Inject services with different qualifiers.

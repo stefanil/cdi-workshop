@@ -1,0 +1,14 @@
+CDI Workshop - Exercise 6
+
+1.  Annotation Spy
+1.1 Create interceptor binding Spy.
+
+2.  Class SpyInterceptor
+2.1 Annotate with interceptor and interceptor binding.
+2.2 Annotate method with around invoke.
+
+3.  Class MailService
+2.1 Annotate with interceptor bindung.
+
+4.  Configuration beans.xml
+4.1 Activate interceptor.

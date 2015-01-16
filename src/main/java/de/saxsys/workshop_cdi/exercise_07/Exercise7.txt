@@ -1,0 +1,8 @@
+CDI Workshop - Exercise 7
+
+1.  Class MessageSender
+1.1 Inject a message event.
+1.2 Create message object and fire message event.
+
+2.  Class MessageReceiver
+2.1 Observes message event.

@@ -1,0 +1,10 @@
+CDI Workshop - Exercise 1
+
+1.  Class FieldInjection
+1.1 Inject bean of type CDIGreeting in field greeting.
+
+2.  Class MethodInjection
+2.1 Inject bean of type CDIGreeting in method setCDIGreeting.
+
+3.  Class ConstructorInjection
+3.1 Inject bean of type CDIGreeting in constructor ConstructorInjection.

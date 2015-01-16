@@ -1,0 +1,10 @@
+CDI Workshop - Exercise 5
+
+1.  Class RequestBean
+1.1 Assign bean to request scope.
+
+2.  Class SessionBean
+2.1 Assign bean to session scope and make it serializable.
+
+3.  Class ApplicationBean
+3.1 Assign bean to application scope.

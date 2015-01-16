@@ -1,0 +1,7 @@
+CDI Workshop - Exercise 4
+
+1.  Class UserProducer
+1.1 Annotate method as producer method for User("Max", "Superuser").
+
+2.  Class User
+2.1 Remove constructor to resolve AmbigousResolutionException

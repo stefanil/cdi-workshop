@@ -1,0 +1,10 @@
+CDI Workshop - Exercise 3
+
+1.  Annotation Mock
+1.1 Create stereotype Mock.
+
+2.  Class NumberMemoryRepository
+2.1 Annotate bean as alternative implementation.
+
+3.  Configuration beans.xml
+3.1 Activate alternative implementation.
