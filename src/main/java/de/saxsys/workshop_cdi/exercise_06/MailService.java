@@ -1,6 +1,6 @@
 package de.saxsys.workshop_cdi.exercise_06;
 
-// TODO Annotate with interceptor bindung.
+@Spy
 public class MailService {
 
 	public String sendMessage(String message) {

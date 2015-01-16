@@ -3,9 +3,15 @@ package de.saxsys.workshop_cdi.exercise_06;
 import java.io.Serializable;
 
 import javax.inject.Inject;
+import javax.interceptor.AroundInvoke;
+import javax.interceptor.Interceptor;
 import javax.interceptor.InvocationContext;
 
-// TODO Annotate with interceptor and interceptor binding.
+/*
+ * Register this interceptor to CDI.
+ */
+@Spy
+@Interceptor
 public class SpyInterceptor implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
@@ -13,7 +19,7 @@ public class SpyInterceptor implements Serializable {
 	@Inject
 	SpyBean spyBean;
 	
-	// TODO Annotate method with around invoke.
+	@AroundInvoke
 	public Object spyMethodCall(InvocationContext invocationContext) throws Exception {
 		spyBean.setLastMethod(invocationContext.getMethod().getName());
 		spyBean.setMessageIn(invocationContext.getParameters()[0].toString());

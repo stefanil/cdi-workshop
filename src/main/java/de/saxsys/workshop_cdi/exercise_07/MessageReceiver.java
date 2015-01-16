@@ -1,5 +1,6 @@
 package de.saxsys.workshop_cdi.exercise_07;
 
+import javax.enterprise.event.Observes;
 import javax.inject.Singleton;
 
 @Singleton
@@ -15,6 +16,8 @@ public class MessageReceiver {
 		return message;
 	}
 	
-	// TODO Observes message event
+	public void receive(@Observes Message messageEvent) {
+		message = messageEvent.getMessage();
+	}
 	
 }

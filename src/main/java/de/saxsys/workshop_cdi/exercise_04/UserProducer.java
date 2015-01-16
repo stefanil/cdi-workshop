@@ -1,8 +1,10 @@
 package de.saxsys.workshop_cdi.exercise_04;
 
+import javax.enterprise.inject.Produces;
+
 public class UserProducer {
 
-	// TODO Annotate method as producer method for User("Max", "Superuser").
+	@Produces
 	public User createCurrentUser() {
 		return new User("Max", "Superuser");
 	}

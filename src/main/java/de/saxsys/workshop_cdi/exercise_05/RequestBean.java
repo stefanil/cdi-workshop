@@ -1,6 +1,8 @@
 package de.saxsys.workshop_cdi.exercise_05;
 
-// TODO Assign bean to request scope.
+import javax.enterprise.context.RequestScoped;
+
+@RequestScoped
 public class RequestBean {
 	
 	private int counter;

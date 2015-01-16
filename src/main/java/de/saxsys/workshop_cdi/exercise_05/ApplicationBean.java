@@ -1,6 +1,8 @@
 package de.saxsys.workshop_cdi.exercise_05;
 
-// TODO Assign bean to application scope.
+import javax.enterprise.context.ApplicationScoped;
+
+@ApplicationScoped
 public class ApplicationBean {
 	
 	private int counter;
