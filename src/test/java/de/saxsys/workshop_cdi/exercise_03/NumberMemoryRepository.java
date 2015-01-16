@@ -4,10 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
-import javax.enterprise.inject.Vetoed;
 
-// TODO Annotate bean as alternative implementation.
-@Vetoed // <- Delete this
+@Mock
+//@Vetoed // <- Delete this
 public class NumberMemoryRepository implements NumberRepository {
 
 	private static final String MESSAGE_SAVE = "Number saved in memory";
